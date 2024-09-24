@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>¡Cuidado con el Phishing!</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>¡HEY, TEN CUIDADO!</h1>
+        <p>Siempre verifica los correos electrónicos antes de hacer clic. Puedes ser víctima de phishing.</p>
+        <p>Si sospechas que has sido víctima, cambia tu contraseña de inmediato.</p>
+    </div>
+</body>
+</html>
