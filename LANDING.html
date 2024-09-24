@@ -5,7 +5,7 @@
     <title>Iniciar sesión en Gmail</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             background-color: #f1f1f1;
             display: flex;
             justify-content: center;
@@ -21,6 +21,25 @@
             max-width: 400px;
             text-align: center;
         }
+        img {
+            width: 80px;
+        }
+        h2 {
+            color: #202124;
+        }
+        label {
+            text-align: left;
+            display: block;
+            margin: 10px 0 5px;
+            color: #202124;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
         button {
             background-color: #4285F4;
             color: white;
@@ -28,6 +47,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            width: 100%;
         }
         button:hover {
             background-color: #357ae8;
@@ -36,13 +56,13 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail Logo" width="80">
+        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail Logo">
         <h2>Iniciar sesión en Gmail</h2>
         <form id="loginForm" onsubmit="return false;">
-            <label for="email">Correo electrónico</label><br>
-            <input type="text" id="email" name="email" style="width: 100%; padding: 10px; margin: 10px 0;" required><br>
-            <label for="password">Contraseña</label><br>
-            <input type="password" id="password" name="password" style="width: 100%; padding: 10px;" required><br><br>
+            <label for="email">Correo electrónico</label>
+            <input type="text" id="email" name="email" required>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
             <button type="button" onclick="handleSubmit()">Iniciar sesión</button>
         </form>
     </div>
